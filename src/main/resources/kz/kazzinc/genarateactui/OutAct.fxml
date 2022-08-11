@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kz.kazzinc.genarateactui.HelloController">
+   <children>
+      <ComboBox fx:id="findArea" layoutX="20.0" layoutY="14.0" prefWidth="150.0" promptText="Выбор участка" style="-fx-background-color: #cfcfcf;" />
+      <TextField fx:id="NumAct" layoutX="20.0" layoutY="60.0" prefHeight="26.0" prefWidth="291.0" promptText="Введите номер акта" />
+      <Button fx:id="click" layoutX="222.0" layoutY="154.0" mnemonicParsing="false" onAction="#Click" style="-fx-background-color: #cfcfcf;" text="Сгенерировать" />
+      <TextField fx:id="imei1" layoutX="353.0" layoutY="60.0" promptText="Введите IMEI1" />
+      <TextField fx:id="imei2" layoutX="353.0" layoutY="102.0" promptText="Введите IMEI2" />
+      <TextField fx:id="EmplData" layoutX="21.0" layoutY="102.0" prefHeight="26.0" prefWidth="291.0" promptText="Введите данные для получателя" />
+   </children>
+</AnchorPane>
