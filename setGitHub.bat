@@ -1,5 +1,7 @@
 @echo on
 git init
+git config --global user.name "Java488-oss"
+git config --global user.email "job.mail1358@gmail.com"
 git add .
 set /p "id=Input commit: "
 git commit -m "%id%"
